@@ -1,0 +1,8 @@
+[submodule "src/amb_env/extern/pybind11"]
+	path = src/amb_env/extern/pybind11
+	url = https://github.com/pybind/pybind11.git
+	branch = stable
+[submodule "src/amb_env/extern/cnpy"]
+	path = src/amb_env/extern/cnpy
+	url = https://github.com/rogersce/cnpy.git
+	branch = master

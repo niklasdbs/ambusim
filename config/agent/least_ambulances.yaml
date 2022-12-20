@@ -1,0 +1,5 @@
+object:
+  _target_ : EmRL.agents.least_ambulances_agent.LeastAmbulancesAgent
+
+obs_encoder: StateObjectEncoder
+name: Least Ambulances

@@ -1,0 +1,6 @@
+object:
+  _target_ : EmRL.agents.ERTM_agent.ERTMAgent
+  busy_fraction: 0.1038
+
+name: ERTM
+obs_encoder: AmbulanceThatNeedsToActEncoder

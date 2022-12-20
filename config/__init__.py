@@ -1,0 +1,1 @@
+#This init file is needed to run the hydra within the packaged app

@@ -1,0 +1,7 @@
+object:
+  _target_ : EmRL.agents.MECLP_agent.MaximumExpectedCoveringLocationProblemAgent
+  busy_fraction: 0.1038
+  longest_travel_time: 600
+
+name: MECLP
+obs_encoder: AmbulanceThatNeedsToActEncoder

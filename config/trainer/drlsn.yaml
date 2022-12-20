@@ -1,0 +1,5 @@
+object:
+  _target_ : EmRL.trainer.trainer.DRLSNTrainer
+
+number_of_epochs: 500
+eval_every_n_epochs: 100

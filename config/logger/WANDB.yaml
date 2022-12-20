@@ -1,0 +1,4 @@
+_target_ : EmRL.logger.WANDBLogger
+entity: your_entity
+project: your_project
+offline: false

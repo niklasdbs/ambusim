@@ -1,0 +1,6 @@
+# @package _global_
+defaults:
+  - override /environment_config: environment_config
+  - override /trainer: drlsn #drlsn no_training
+  - override /logger: WANDB #todo aggregate logger does not work
+  - override /agent: drlsn #random least_ambulances nearest_base_station drlsn

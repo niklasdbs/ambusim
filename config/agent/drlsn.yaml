@@ -1,0 +1,7 @@
+object:
+  _target_ : EmRL.agents.drlsn_agent.DRLSNAgent
+
+
+obs_encoder: DRLSNEncoder
+lr: 0.005
+name: DRLSN

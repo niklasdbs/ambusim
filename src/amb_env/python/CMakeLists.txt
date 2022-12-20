@@ -1,0 +1,2 @@
+pybind11_add_module(ambulance_env bindings.cpp)
+target_link_libraries(ambulance_env PRIVATE ambulance_env_lib)

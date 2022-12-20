@@ -1,0 +1,6 @@
+object:
+  _target_ : EmRL.agents.random_agent.RandomAgent
+  seed: 42
+
+obs_encoder: NoneNumpyObservationEncoder
+name: Random

@@ -1,0 +1,5 @@
+observation_encoder: ${agent.obs_encoder} #SimpleObservationEncoder,StateObjectEncoder, NoneNumpyObservationEncoder, NearestBaseStationEncoder, AmbulanceThatNeedsToActEncoder
+path_to_dataset: "data/processed/sf"
+number_of_ambulances: 20
+do_not_shuffle_days: False
+name: sf

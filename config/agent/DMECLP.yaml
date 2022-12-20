@@ -1,0 +1,7 @@
+object:
+  _target_ : EmRL.agents.DMECLP_agent.DMECLPAgent
+  busy_fraction: 0.1038
+  longest_travel_time: 600
+
+name: DMECLP
+obs_encoder: AmbulanceDestinationEncoder

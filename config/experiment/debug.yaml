@@ -1,0 +1,8 @@
+# @package _global_
+defaults:
+  - override /environment_config: sf
+  - override /trainer: no_training #drlsn no_training inrl inrl_offpolicy
+  - override /logger: console
+  - override /agent: nearest_base_station #random least_ambulances nearest_base_station drlsn MECLP inrl inrl_offpolicy
+
+debug: True

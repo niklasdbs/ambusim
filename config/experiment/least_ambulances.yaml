@@ -1,0 +1,6 @@
+# @package _global_
+defaults:
+  - override /environment_config: environment_config
+  - override /trainer: no_training
+  - override /logger: WANDB
+  - override /agent: least_ambulances

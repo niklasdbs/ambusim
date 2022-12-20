@@ -1,0 +1,5 @@
+object:
+  _target_ : EmRL.agents.nearest_base_station_agent.NearestBaseStationAgent
+
+obs_encoder: NearestBaseStationEncoder
+name: Nearest Station

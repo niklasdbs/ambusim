@@ -1,0 +1,12 @@
+defaults:
+  - environment_config: sf
+  - trainer: drlsn #drlsn no_training
+  - logger: WANDB #todo aggregate logger does not work
+  - agent: drlsn #random least_ambulances nearest_base_station drlsn MECLP DMECLP
+  - _self_
+
+debug: False
+experiment_name: default
+hydra:
+  job:
+    chdir: True
